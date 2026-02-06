@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="es" data-lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0b1220" />
+
+  <title>TECED | Transformación Educativa y Tecnología</title>
+  <meta name="description" content="TECED: capacitaciones presenciales y virtuales (Moodle), cultura digital e IA en educación. Servicio técnico: reparación y venta de PC y notebooks." />
+
+  <!-- SEO -->
+  <link rel="canonical" href="https://TU-DOMINIO.com/" />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="TECED | Transformación Educativa y Tecnología" />
+  <meta property="og:description" content="Capacitaciones (presenciales y virtuales en Moodle) + servicio técnico de PC y notebooks." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://TU-DOMINIO.com/" />
+  <meta property="og:image" content="https://TU-DOMINIO.com/assets/img/logo-teced.png" />
+
+  <!-- Performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Tipos (podés cambiar por la que quieras) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!-- Schema.org (Organization) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "TECED",
+    "url": "https://TU-DOMINIO.com/",
+    "logo": "https://TU-DOMINIO.com/assets/img/logo-teced.png",
+    "sameAs": ["https://www.instagram.com/teced"],
+    "description": "Capacitaciones presenciales y virtuales en plataforma Moodle. Servicio técnico: reparación y venta de PC y notebooks.",
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "telephone": "+54 9 3416508029",
+      "availableLanguage": ["Spanish","English"]
+    }]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#inicio">Saltar al contenido</a>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container header__row">
+      <a class="brand" href="#inicio" aria-label="TECED - Inicio">
+        <img src="assets/img/logo-teced.svg" alt="Logo TECED" class="brand__logo" />
+        <div class="brand__text">
+          <span class="brand__name">TECED</span>
+          <span class="brand__tag" data-i18n="tagline">Liderar, Innovar y Transformar</span>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Navegación principal">
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="nav__toggleLines" aria-hidden="true"></span>
+          <span class="sr-only" data-i18n="menu">Menú</span>
+        </button>
+
+        <ul class="nav__menu" id="navMenu">
+          <li><a href="#inicio" data-i18n="nav_home">Inicio</a></li>
+          <li><a href="#sobre" data-i18n="nav_about">Sobre TECED</a></li>
+          <li><a href="#servicios" data-i18n="nav_services">Servicios y Cursos</a></li>
+          <li><a href="#blog" data-i18n="nav_blog">Blog</a></li>
+          <li><a href="#recursos" data-i18n="nav_resources">Recursos</a></li>
+          <li><a href="#testimonios" data-i18n="nav_testimonials">Testimonios</a></li>
+          <li><a href="#contacto" class="btn btn--small" data-i18n="nav_contact">Contacto</a></li>
+        </ul>
+
+        <div class="lang">
+          <button class="lang__btn" id="langBtn" aria-label="Cambiar idioma">ES / EN</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- WhatsApp floating button -->
+  <a class="wa-float" id="waFloat" href="#" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <span aria-hidden="true">💬</span>
+    <span class="wa-float__text" data-i18n="wa">WhatsApp</span>
+  </a>
+
+  <main>
+    <!-- Hero / Inicio -->
+    <section class="hero" id="inicio">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="pill" data-i18n="pill">Educación + Tecnología con mirada humana</p>
+          <h1 data-i18n="h1">Transformación educativa y soluciones tecnológicas, en un mismo lugar.</h1>
+          <p class="lead" data-i18n="lead">
+            Capacitaciones presenciales y virtuales en tu plataforma Moodle + servicio técnico de reparación y venta de PC y notebooks.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#servicios" data-i18n="cta_services">Ver servicios y cursos</a>
+            <a class="btn btn--ghost" id="moodleLinkTop" href="https://TU-MOODLE.com" target="_blank" rel="noopener" data-i18n="cta_moodle">
+              Ir al Campus Moodle
+            </a>
+          </div>
+
+          <div class="hero__badges">
+            <div class="badge" data-i18n="badge_1">✅ Cursos para docentes e instituciones</div>
+            <div class="badge" data-i18n="badge_2">✅ Acompañamiento y asesoría</div>
+            <div class="badge" data-i18n="badge_3">✅ Servicio técnico confiable</div>
+          </div>
+        </div>
+
+        <div class="hero__card" aria-label="Tarjeta destacada">
+          <div class="card">
+            <h2 data-i18n="card_title">¿Qué estás buscando hoy?</h2>
+            <div class="choice-grid">
+              <a class="choice" href="#servicios" data-i18n="choice_courses">
+                <span class="choice__icon">🎓</span>
+                <span class="choice__title">Cursos</span>
+                <span class="choice__desc">Presenciales y virtuales</span>
+              </a>
+              <a class="choice" href="#servicios" data-i18n="choice_it">
+                <span class="choice__icon">🧰</span>
+                <span class="choice__title">Servicio técnico</span>
+                <span class="choice__desc">PC y notebooks</span>
+              </a>
+              <a class="choice" href="#recursos" data-i18n="choice_resources">
+                <span class="choice__icon">📚</span>
+                <span class="choice__title">Recursos</span>
+                <span class="choice__desc">Descargables</span>
+              </a>
+              <a class="choice" href="#contacto" data-i18n="choice_contact">
+                <span class="choice__icon">📲</span>
+                <span class="choice__title">Contacto</span>
+                <span class="choice__desc">WhatsApp directo</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero__wave" aria-hidden="true"></div>
+    </section>
+
+    <!-- Sobre TECED -->
+    <section class="section" id="sobre">
+      <div class="container">
+        <div class="section__head">
+          <h2 data-i18n="about_title">Sobre TECED</h2>
+          <p class="muted" data-i18n="about_sub">
+            Un puente entre pedagogía, cultura digital y soluciones concretas para el día a día.
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3 data-i18n="about_h3_1">Nuestra misión</h3>
+            <p data-i18n="about_p_1">
+              Acompañar a escuelas, docentes y familias en procesos de transformación educativa con enfoque creativo, ético y situado.
+            </p>
+            <ul class="checklist">
+              <li data-i18n="about_li_1">Formación docente y talleres</li>
+              <li data-i18n="about_li_2">Plataforma virtual Moodle propia</li>
+              <li data-i18n="about_li_3">Asesoría institucional y proyectos</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3 data-i18n="about_h3_2">También resolvemos lo técnico</h3>
+            <p data-i18n="about_p_2">
+              Porque la innovación no funciona con una notebook colgada del último suspiro. Reparación, optimización y venta de equipos.
+            </p>
+            <ul class="checklist">
+              <li data-i18n="about_li_4">Diagnóstico y reparación</li>
+              <li data-i18n="about_li_5">Mantenimiento y mejoras</li>
+              <li data-i18n="about_li_6">Venta de PC / notebooks</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios y Cursos -->
+    <section class="section section--soft" id="servicios">
+      <div class="container">
+        <div class="section__head">
+          <h2 data-i18n="services_title">Servicios y Cursos</h2>
+          <p class="muted" data-i18n="services_sub">
+            Dos líneas de trabajo, una misma idea: que todo funcione (en el aula y en la compu).
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card card--accent">
+            <h3 data-i18n="svc_courses_title">Capacitaciones (Presenciales + Moodle)</h3>
+            <p data-i18n="svc_courses_p">
+              Cursos, talleres y trayectos formativos. Acceso a contenidos y actividades en tu campus virtual.
+            </p>
+            <div class="pill-row">
+              <span class="chip" data-i18n="chip_1">IA en educación</span>
+              <span class="chip" data-i18n="chip_2">Cultura digital</span>
+              <span class="chip" data-i18n="chip_3">Innovación pedagógica</span>
+              <span class="chip" data-i18n="chip_4">Familias y ciudadanía</span>
+            </div>
+            <div class="actions">
+              <a class="btn" id="moodleLinkMid" href="https://TU-MOODLE.com" target="_blank" rel="noopener" data-i18n="btn_moodle">
+                Entrar al Campus Moodle
+              </a>
+              <a class="btn btn--ghost" href="#contacto" data-i18n="btn_quote_courses">Pedir propuesta</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 data-i18n="svc_it_title">Servicio técnico (PC y notebooks)</h3>
+            <p data-i18n="svc_it_p">
+              Reparación, mantenimiento, optimización y venta de equipos. Para hogares, instituciones y público general.
+            </p>
+            <ul class="bullet">
+              <li data-i18n="it_li_1">Formateo, instalación y puesta a punto</li>
+              <li data-i18n="it_li_2">Mejoras (SSD, RAM) y limpieza</li>
+              <li data-i18n="it_li_3">Diagnóstico y reparación</li>
+              <li data-i18n="it_li_4">Equipos reacondicionados / venta</li>
+            </ul>
+            <div class="actions">
+              <a class="btn" href="#contacto" data-i18n="btn_whatsapp">Consultar por WhatsApp</a>
+              <a class="btn btn--ghost" href="#recursos" data-i18n="btn_guides">Ver guías</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="note">
+          <strong data-i18n="note_strong">Tip:</strong>
+          <span data-i18n="note_text">Podemos armar paquetes para escuelas: capacitación + soporte técnico + acompañamiento.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section class="section" id="blog">
+      <div class="container">
+        <div class="section__head">
+          <h2 data-i18n="blog_title">Blog</h2>
+          <p class="muted" data-i18n="blog_sub">
+            Ideas, recursos y mirada situada sobre educación y tecnología.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card post">
+            <h3 data-i18n="post1_title">IA en la escuela: potenciales y límites</h3>
+            <p class="muted" data-i18n="post1_desc">Una guía para pensar la IA sin magia ni pánico moral.</p>
+            <a class="link" href="#" data-i18n="read_more">Leer más</a>
+          </article>
+
+          <article class="card post">
+            <h3 data-i18n="post2_title">Cultura digital y ciudadanía</h3>
+            <p class="muted" data-i18n="post2_desc">Convivencia, redes y el desafío de enseñar a habitar internet.</p>
+            <a class="link" href="#" data-i18n="read_more">Leer más</a>
+          </article>
+
+          <article class="card post">
+            <h3 data-i18n="post3_title">Checklist técnico para escuelas</h3>
+            <p class="muted" data-i18n="post3_desc">Lo mínimo para que el laboratorio no sea un museo de PCs tristes.</p>
+            <a class="link" href="#" data-i18n="read_more">Leer más</a>
+          </article>
+        </div>
+
+        <p class="mini muted" data-i18n="blog_note">
+          (Cuando quieras, lo convierto en blog real “sin sufrimiento” con un generador estático o CMS liviano.)
+        </p>
+      </div>
+    </section>
+
+    <!-- Recursos -->
+    <section class="section section--soft" id="recursos">
+      <div class="container">
+        <div class="section__head">
+          <h2 data-i18n="resources_title">Recursos descargables</h2>
+          <p class="muted" data-i18n="resources_sub">
+            Materiales para docentes, directivos y familias.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <div class="card">
+            <h3 data-i18n="res1_title">Plantilla de planificación</h3>
+            <p class="muted" data-i18n="res1_desc">Modelo editable para proyectos con tecnología.</p>
+            <a class="btn btn--small" href="assets/docs/plantilla-planificacion.pdf" download data-i18n="download">Descargar</a>
+          </div>
+
+          <div class="card">
+            <h3 data-i18n="res2_title">Rúbrica de proyectos</h3>
+            <p class="muted" data-i18n="res2_desc">Criterios simples para evaluar aprendizajes.</p>
+            <a class="btn btn--small" href="assets/docs/rubrica.pdf" download data-i18n="download">Descargar</a>
+          </div>
+
+          <div class="card">
+            <h3 data-i18n="res3_title">Guía rápida de cuidado digital</h3>
+            <p class="muted" data-i18n="res3_desc">Recomendaciones para familias y estudiantes.</p>
+            <a class="btn btn--small" href="assets/docs/guia-cuidado-digital.pdf" download data-i18n="download">Descargar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="section" id="testimonios">
+      <div class="container">
+        <div class="section__head">
+          <h2 data-i18n="testimonials_title">Testimonios</h2>
+          <p class="muted" data-i18n="testimonials_sub">Lo que dicen quienes ya trabajaron con TECED.</p>
+        </div>
+
+        <div class="grid-3">
+          <figure class="card quote">
+            <blockquote data-i18n="t1">“Una capacitación clara, práctica y con mirada ética. Nos ayudó a ordenar el proyecto institucional.”</blockquote>
+            <figcaption>— <span data-i18n="t1a">Equipo directivo</span></figcaption>
+          </figure>
+
+          <figure class="card quote">
+            <blockquote data-i18n="t2">“El campus Moodle es súper accesible. Las actividades se adaptan a distintos ritmos.”</blockquote>
+            <figcaption>— <span data-i18n="t2a">Docente</span></figcaption>
+          </figure>
+
+          <figure class="card quote">
+            <blockquote data-i18n="t3">“Además del curso, nos resolvieron problemas técnicos que veníamos pateando hace meses.”</blockquote>
+            <figcaption>— <span data-i18n="t3a">Institución</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="section section--soft" id="contacto">
+      <div class="container">
+        <div class="section__head">
+          <h2 data-i18n="contact_title">Contacto</h2>
+          <p class="muted" data-i18n="contact_sub">
+            Escribime por WhatsApp y contame qué necesitás (curso, propuesta institucional o servicio técnico).
+          </p>
+        </div>
+
+        <div class="card contact-card">
+          <div>
+            <h3 data-i18n="contact_h3">WhatsApp directo</h3>
+            <p class="muted" data-i18n="contact_p">Te respondo a la brevedad. Si es para escuela, agregá localidad y nivel.</p>
+            <div class="actions">
+              <a class="btn" id="waMain" href="#" target="_blank" rel="noopener" data-i18n="contact_btn">Abrir WhatsApp</a>
+              <a class="btn btn--ghost" id="moodleLinkBottom" href="https://TU-MOODLE.com" target="_blank" rel="noopener" data-i18n="contact_moodle">
+                Ir al Campus Moodle
+              </a>
+            </div>
+          </div>
+
+          <div class="mini-card">
+            <p class="mini-title" data-i18n="contact_box_title">Horarios de respuesta</p>
+            <p class="muted" data-i18n="contact_box_text">Lun a Vie · 9 a 18 hs (Arg). Urgencias técnicas: indicarlo en el primer mensaje.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__row">
+      <p class="muted">© <span id="year"></span> TECED · <span data-i18n="footer_rights">Todos los derechos reservados</span></p>
+      <a class="link" href="#top" data-i18n="back_top">Volver arriba</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
